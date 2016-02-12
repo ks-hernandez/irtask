@@ -17,7 +17,7 @@
             <div class="panel-body">
                 <table class="table table-striped task-table">
                     <thead>
-                        <th>Task</th>
+                        <th>Task Description</th>
 
                         <th>Location</th>
                         <th>Actons</th>
