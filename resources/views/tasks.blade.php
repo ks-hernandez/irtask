@@ -11,7 +11,7 @@
         @if (count($tasks) > 0)
         <div class="panel panel-default">
             <div class="panel-heading">
-                Current Tasks
+                Here are your Current Tasks!
             </div>
 
             <div class="panel-body">
