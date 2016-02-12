@@ -35,7 +35,7 @@
 
   
 
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">KA Task Editor</a>
