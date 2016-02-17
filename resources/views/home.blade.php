@@ -98,6 +98,15 @@
                         
                     </div>
 
+                      <div class="form-group">
+                        <label for="task-name" class="col-sm-3 control-label">Assign To</label>
+
+                        <div class="col-sm-8">
+                            <input type="text" name="Site_ID" id="task-location" class="form-control" value="{{ old('task') }}">
+                        </div>
+                        
+                    </div>
+
                     <!-- Add Task Button -->
                     <div class="form-group">
                         <div class="col-sm-offset-3 col-sm-8">
