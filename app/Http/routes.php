@@ -5,16 +5,10 @@ use Illuminate\Http\Request;
 
 Route::group(['middleware' => 'web'], function () {
 
-// Show Task Dashboard
-    Route::get('/', function () {
-    //$tasks = Task::all();
-        $tasks = Task::orderBy('created_at', 'asc')->get();
-        return view('tasks', ['tasks' => $tasks]);
-    });
+Route::auth();
 
- Route::get('/demo', function () {
-          return view('demo2');
-    }); 
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
 
 
 // Add New Task
@@ -48,3 +42,4 @@ Route::group(['middleware' => 'web'], function () {
     });
 
 });
+

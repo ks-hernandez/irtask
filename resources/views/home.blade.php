@@ -1,13 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-
-<div class="container">
-    <div class="col-sm-offset-1 col-sm-11">
-        <h2> Keystone Alliance </h2>
+<div class="container spark-screen">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+           
+              
 
         <!-- Current Tasks -->
         @if (count($tasks) > 0)
+        <h2> Keystone Alliance </h2>
         <div class="panel panel-default">
             
             <div class="panel-heading">
@@ -36,7 +38,7 @@
                                     {{ method_field('EDIT') }}
 
                                     <button type="submit" class="btn btn-info">
-                                        <i class="fa fa-trash"></i>Edit...
+                                        <i class="fa fa-trash"></i>  Edit....
                                     </button>
                                 </form>
                             </td>
@@ -50,7 +52,7 @@
                                     {{ method_field('DELETE') }}
 
                                     <button type="submit" class="btn btn-danger">
-                                        <i class="fa fa-trash"></i>Delete
+                                        <i class="fa fa-trash"></i>  Delete
                                     </button>
                                 </form>
                             </td>
@@ -106,8 +108,15 @@
                     </div>
                 </form>
             </div>
-        </div>
+        
 
-    </div>  <!-- class "container" -->
+
+
+
+
+
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
