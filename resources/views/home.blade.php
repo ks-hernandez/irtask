@@ -39,7 +39,7 @@
                                     {{ method_field('EDIT') }}
 
                                     <button type="submit" class="btn btn-info">
-                                        <i class="fa fa-trash"></i>  Edit....
+                                        <i class="fa glyphicon-edit"></i>  Edit....
                                     </button>
                                 </form>
                             </td>
