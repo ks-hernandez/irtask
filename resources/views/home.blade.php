@@ -39,7 +39,7 @@
                                     {{ method_field('EDIT') }}
 
                                     <button type="submit" class="btn btn-info">
-                                        <i class="fa glyphicon-edit"></i>  Edit....
+                                        <i class="fa fa-pencil-square-o"></i>  Edit....
                                     </button>
                                 </form>
                             </td>
@@ -53,7 +53,7 @@
                                     {{ method_field('DELETE') }}
 
                                     <button type="submit" class="btn btn-danger">
-                                        <i class="fa fa-pencil-square-o"></i>  Delete
+                                        <i class="fa fa-trash"></i>  Delete
                                     </button>
                                 </form>
                             </td>
