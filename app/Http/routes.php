@@ -26,7 +26,10 @@ Route::get('/home', 'HomeController@index');
 
         $task = new Task;
         $task->name = $request->name;
+        $task->notes = $request->notes;
         $task->location = $request->location;
+        $task->owner=$request->owner;
+        $task->status=$request->status;
         $task->save();
 
         return redirect('/');

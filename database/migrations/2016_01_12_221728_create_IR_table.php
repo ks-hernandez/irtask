@@ -19,10 +19,7 @@
                 $table->date('incident_date');
                 $table->integer('site_id');
                 $table->date('incident_time');
-
                 $table->string('incident_description',250);
-                
-
                 $table->timestamps();
             });
         }

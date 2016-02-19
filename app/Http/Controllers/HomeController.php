@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Task;
+use App\owner;
+use App\statu;
+
 
 class HomeController extends Controller
 {
@@ -26,8 +29,14 @@ class HomeController extends Controller
     public function index()
     {
 
-        $tasks = Task::orderBy('created_at', 'asc')->get();
-        return view('home', ['tasks' => $tasks]);
+        $status = statu::orderBy('status','asc')->get();
+
+        $owners = owner::orderBy('owner_name','asc')->get();
         
+        $tasks = Task::orderBy('created_at', 'asc')->get();
+        
+        return view('home', compact('tasks'), compact('owners'));
+        
+
     }
 }
