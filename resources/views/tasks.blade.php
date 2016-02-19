@@ -11,13 +11,13 @@
         <div class="panel panel-default">
             
             <div class="panel-heading">
-                <center> Here are your Current Tasks! </center>
+                <center> Here are your Current Projects! </center>
             </div>
 
             <div class="panel-body">
                 <table class="table table-striped task-table">
                     <thead>
-                        <th>Task Description</th>
+                        <th>Project Description</th>
 
                         <th>Location</th>
                         <th>Actons</th>
@@ -66,7 +66,7 @@
 
         <div class="panel panel-default">
             <div class="panel-heading">
-                New Task
+                New Project
             </div>
 
             <div class="panel-body">
@@ -79,7 +79,7 @@
 
                     <!-- Task Name -->
                     <div class="form-group">
-                        <label for="task-name" class="col-sm-3 control-label">Task</label>
+                        <label for="task-name" class="col-sm-3 control-label">Project</label>
 
                         <div class="col-sm-8">
                             <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
@@ -97,20 +97,38 @@
                     </div>
 
                         <div class="form-group">
-                        <label for="task-name" class="col-sm-3 control-label">Site</label>
+                        <label for="task-name" class="col-sm-3 control-label">Owner</label>
 
                         <div class="col-sm-8">
-                            <input type="text" name="site" id="task-location" class="form-control" value="{{ old('task') }}">
+                            <input type="text" name="site" id="task-location" class="form-control">
+                        </div>
+                        
+                    </div>
+
+                          <div class="form-group">
+                        <label for="task-name" class="col-sm-3 control-label">Start Date</label>
+
+                        <div class="col-sm-4">
+                            <input type="text" name="site" id="task-location" class="form-control">
                         </div>
                         
                     </div>
 
 
+    <div class="form-group">
+                        <label for="task-name" class="col-sm-3 control-label">End Date</label>
+
+                        <div class="col-sm-4">
+                            <input type="text" name="site" id="task-location" class="form-control">
+                        </div>
+                        
+                    </div>
+
                     <!-- Add Task Button -->
                     <div class="form-group">
                         <div class="col-sm-offset-3 col-sm-8">
                             <button type="submit" class="btn btn-primary">
-                                <i class="fa fa-plus"></i>Add Task
+                                <i class="fa fa-plus"></i>Add Project
                             </button>
                         </div>
                     </div>
