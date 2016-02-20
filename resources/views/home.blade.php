@@ -46,9 +46,7 @@
                                         <i class="fa fa-pencil-square-o"></i>  Edit....
                                     </button>
                                 </form>
-                            </td>
-
-                            
+                            </td>       
 
                             <!-- Task Delete Button -->
                             <td>
@@ -87,7 +85,6 @@
                     <!-- Task Name -->
                     <div class="form-group">
                         <label for="task-name" class="col-sm-3 control-label">Task Name</label>
-
                         <div class="col-sm-8">
                             <input type="text" name="name" id="task-name" class="form-control" placeholder="Enter a short description to identify this task" >
                         </div>
@@ -95,7 +92,6 @@
                     </div>
 
                     <div class="form-group">
-
                         <label for="notes" class="control-label col-sm-3 "><strong> Description</strong> </label>
                         <div class="col-sm-8">
                             <textarea rows="5" class="form-control" name="notes"  placeholder="Describe in detail the task HERE! "></textarea>
@@ -105,15 +101,13 @@
 
                     <div class="form-group">
                         <label for="location" class="col-sm-3 control-label">Location</label>
-
                         <div class="col-sm-8">
                             <input type="text" name="location" id="task-location" class="form-control" >
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="owner" class="col-sm-3 control-label"><b>Assign Task to</b> </label>
-                        
+                        <label for="owner" class="col-sm-3 control-label"><b>Assign Task to</b> </label>       
                         <div class="col-sm-8">
                             <select name ="owner" class="form-control"  >
                                     <option>Choose One...</option>
@@ -125,8 +119,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="status" class="col-sm-3 control-label"><b>Status</b> </label>
-                        
+                        <label for="status" class="col-sm-3 control-label"><b>Status</b> </label>   
                         <div class="col-sm-8">
                             <select name ="status" class="form-control"  >
                               <option>Choose One...</option>
@@ -147,15 +140,10 @@
                             </button>
                         </div>
                     </div>
+
                 </form>
             </div>
-        
-
-
-
-
-
-
+  
             </div>
         </div>
     </div>

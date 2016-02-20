@@ -40,7 +40,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Keystone Alliance
+                    KASoft 
                 </a>
             </div>
 
@@ -73,6 +73,18 @@
     </nav>
 
     @yield('content')
+
+        <footer class="footer">
+                <div class="container-fluid">
+
+                    <p class="copyright">
+                        <center>
+                        &copy; 2016 <a href="#">Keystone Alliance</a>, Building Simple, Agile, Modern, and Elegant Applications.
+                    </center>
+                    </p>
+                </div>
+            </footer>
+
 
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
