@@ -9,10 +9,10 @@
 
         <!-- Current Tasks -->
         @if (count($tasks) > 0)
-        <center><h2> Keystone Alliance </h2> </center>
+        <h4> Keystone Alliance </h4>
         <div class="panel panel-default">
             
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
                  Here are your Current Tasks :  {{ Auth::user()->name }} 
             </div>
 
@@ -70,7 +70,7 @@
         @endif
 
         <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
                 New Task Details
             </div>
 
