@@ -23,6 +23,22 @@
       <div class= "col-lg-6">
 
    <form action="/task" method="POST" class="form-horizontal">
+
+
+                        <div class="form-group">
+                        <label for="status" class="col-sm-3 control-label"><b>Site ID</b> </label>   
+                        <div class="col-sm-8">
+                            <select name ="status" class="form-control"  >
+                              <option>Choose One...</option>
+                              <option>Site 1</option>
+                              <option>Site 2</option>
+                              <option>Site 3</option>
+                                <option>Site 4</option>
+                             
+                             </select>
+                        </div>
+                    </div>
+
                    
 
                     <!-- Task Name -->
@@ -86,14 +102,24 @@
                             <input type="text" name="location" id="task-location" class="form-control" >
                         </div>
                     </div>
-                      <div class="form-group">
-                        <label for="location" class="col-sm-3 control-label">Correction Signature Date</label>
+
+
+
+                    <div class="form-group">
+                        <label for="status" class="col-sm-3 control-label"><b>Site Coordinator</b> </label>   
                         <div class="col-sm-8">
-                            <input type="text" name="location" id="task-location" class="form-control" >
+                            <select name ="status" class="form-control"  >
+                              <option>Choose One...</option>
+                              <option>Nancy Freehafer</option>
+                              <option>Mariya Sergienko</option>
+                              <option>Steven Thorpe</option>
+                                <option>Christina Bremer</option>
+                             
+                             </select>
                         </div>
                     </div>
 
-                 
+                     
 
                         <div class="form-group">
                         <label for="status" class="col-sm-3 control-label"><b>Status</b> </label>   
@@ -189,8 +215,25 @@
     </div>
   </div>
 
+<div class= "row" >
+   
+                   
+
+
+                    <div class="form-group">
+                        <div class=" col-sm-2">
+                            <button type="submit" class="btn btn-primary">
+                                 Print Review
+                            </button>
+                        </div>
+                    </div>
+
+
+
 </div>
 
+</div>
+ 
 
 
 @endsection
