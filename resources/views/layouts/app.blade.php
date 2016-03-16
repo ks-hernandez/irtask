@@ -39,6 +39,8 @@
 
 </head>
 <body id="app-layout">
+
+    
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -61,6 +63,10 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
+                </ul>
+
+                 <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/qa') }}">Q&A PLUS!</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -87,21 +93,29 @@
 
     @yield('content')
 
-        <footer class="footer">
-                <div class="container-fluid">
+    <footer class="footer">
+        <div class="container-fluid">
 
-                    <p class="copyright">
-                        <center>
-                        &copy; 2016 <a href="#">Keystone Alliance</a>, Building Simple, Agile, Modern, and Elegant Applications.
-                    </center>
-                    </p>
-                </div>
-            </footer>
+            <p class="copyright">
+                <center>
+                &copy; 2016 <a href="#">Keystone Alliance strengthens mission-driven nonprofits by providing agile and easy to use systems! </a>
+            </center>
+            </p>
+        </div>
+    </footer>
+
+    @yield('scripts')
+
+
+</body>
+
 
 
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
-</body>
 </html>
+
+
+

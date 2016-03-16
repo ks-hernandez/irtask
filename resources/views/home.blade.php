@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container spark-screen">
     <div class="row">
         <!--div class="col-md-10 col-md-offset-1"-->
@@ -141,11 +142,38 @@
                         </div>
                     </div>
 
+                   
                 </form>
+
+                 
+
+
             </div>
   
             </div>
         </div>
     </div>
 </div>
+
+
 @endsection
+
+@section ('scripts')
+
+  <script type="text/javascript">
+
+  $('#myButton').on('click', function () {
+    var $btn = $(this).button('loading')
+    // business logic...
+    $btn.button('reset')
+  })
+</script>
+
+@endsection
+
+
+
+
+
+
+

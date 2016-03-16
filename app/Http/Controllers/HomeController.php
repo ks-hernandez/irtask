@@ -39,4 +39,9 @@ class HomeController extends Controller
         
 
     }
+
+    public function qanew() {
+
+        return view ('qa_new');
+    }
 }
