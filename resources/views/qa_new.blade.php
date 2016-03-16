@@ -6,7 +6,7 @@
 
 <div class="container">
 
-  <h3>Keystone Alliance - CILA Site Q&A Review </h3>
+  <h3>Keystone Alliance - CILA Site QA Review </h3>
 
   
 
@@ -170,8 +170,8 @@
               <div class="panel-body">
 
                 <ul class="nav nav-tabs">
-                  <li role="presentation" class="active"><a href="#">Client Documentation</a></li>
-                  <li role="presentation"><a href="#">Medication</a></li>
+                  <li role="presentation" class="active"><a href="#home">Client Documentation</a></li>
+                  <li role="presentation"><a href="#Med">Medication</a></li>
                   <li role="presentation"><a href="#">Manuals</a></li>
                   <li role="presentation"><a href="#">Emergency Supplies</a></li>
                   <li role="presentation"><a href="#">Water</a></li>
@@ -179,6 +179,19 @@
                   <li role="presentation"><a href="#">Lincensure</a></li>
                   <li role="presentation"><a href="#">Other</a></li>
                 </ul>
+
+                <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Client Documentation</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+   
+  </div>
+
+
+
+
+
               </div>
             </div>
           </div>
@@ -214,6 +227,15 @@
 
     </div>
   </div>
+
+
+
+
+
+
+
+
+
 
 <div class= "row" >
    
